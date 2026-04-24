@@ -5,7 +5,7 @@
 **Today's Holidays:** No major holidays today
 
 **Year Progress:**
-`██████░░░░░░░░░░░░░░ 31.2%`
+`▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱ 31.2%`
 <!-- END_CALENDAR -->
 
 ---
@@ -14,6 +14,6 @@
 <summary><b>About this Calendar</b></summary>
 <!-- START_DETAILS -->
 This is a dynamic display powered by Python, the `holidays` library, and GitHub Actions.
-**Last updated:** 00:03 UTC
+**Last updated:** 00:21 UTC
 <!-- END_DETAILS -->
 </details>
