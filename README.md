@@ -1,19 +1,19 @@
-# Hi there! 👋 I'm Yung71nKzH3
+# Welcome! I'm Willow 🌴✨
 
-Welcome to my corner of GitHub. Keeping track of the days and celebrating the moments.
+<!-- START_CALENDAR -->
+### 🗓️ Saturday, April 25, 2026
+**Today's Holidays:** No major holidays today
 
-<div align="center">
-  <img src="assets/calendar.svg" alt="Live Calendar" width="500">
-</div>
-
----
-
-### 🗓️ Today's Outlook
-The calendar above updates every hour to show the current date, any holidays happening today, and how much of the year we've navigated so far.
+**Year Progress:**
+`██████░░░░░░░░░░░░░░ 31.2%`
+<!-- END_CALENDAR -->
 
 ---
 
 <details>
 <summary><b>About this Calendar</b></summary>
-This is a dynamic SVG display powered by Python, the `holidays` library, and GitHub Actions. It helps me stay mindful of time and celebrate global events!
+<!-- START_DETAILS -->
+This is a dynamic display powered by Python, the `holidays` library, and GitHub Actions.
+**Last updated:** 00:03 UTC
+<!-- END_DETAILS -->
 </details>
