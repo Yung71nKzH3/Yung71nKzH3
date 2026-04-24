@@ -150,8 +150,9 @@ def update_readme():
     calendar_content += f"**Year Progress:**\n`{progress_bar}`\n"
 
     # Details Section (including Last Updated)
-    details_content = f"This is a dynamic display powered by Python, the `holidays` library, and GitHub Actions.\n"
-    details_content += f"**Last updated:** {last_updated}"
+    details_content = f"\nThis is a dynamic display powered by Python, the `holidays` library, and GitHub Actions.\n"
+    details_content += f"**Last updated:** {last_updated}\n"
+
 
     if os.path.exists(README_PATH):
         with open(README_PATH, "r", encoding="utf-8") as f:

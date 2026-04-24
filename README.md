@@ -12,8 +12,11 @@
 
 <details>
 <summary><b>About this Calendar</b></summary>
+
 <!-- START_DETAILS -->
+
 This is a dynamic display powered by Python, the `holidays` library, and GitHub Actions.
-**Last updated:** 00:21 UTC
+**Last updated:** 00:23 UTC
+
 <!-- END_DETAILS -->
 </details>
