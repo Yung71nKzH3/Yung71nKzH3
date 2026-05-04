@@ -1,8 +1,8 @@
 # Welcome! I'm Willow 🌴✨
 
 <!-- START_CALENDAR -->
-### 🗓️ Sunday, May 03, 2026
-**Today's Holidays:** No major holidays today
+### 🗓️ Monday, May 04, 2026
+**Today's Holidays:** Star Wars Day (May the 4th) ✨
 
 **Year Progress:**
 `▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱ 33.7%`
@@ -16,7 +16,7 @@
 <!-- START_DETAILS -->
 
 This is a dynamic display powered by Python, the `holidays` library, and GitHub Actions.
-**Last updated:** 23:55 UTC
+**Last updated:** 03:49 UTC
 
 <!-- END_DETAILS -->
 </details>
