@@ -1,11 +1,11 @@
 # Welcome! I'm Willow 🌴✨
 
 <!-- START_CALENDAR -->
-### 🗓️ Wednesday, May 20, 2026
-**Today's Holidays:** World Bee Day 🐝
+### 🗓️ Thursday, May 21, 2026
+**Today's Holidays:** International Tea Day ☕
 
 **Year Progress:**
-`▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱ 38.3%`
+`▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱ 38.4%`
 <!-- END_CALENDAR -->
 
 ---
@@ -16,7 +16,7 @@
 <!-- START_DETAILS -->
 
 This is a dynamic display powered by Python, the `holidays` library, and GitHub Actions.
-**Last updated:** 23:17 UTC
+**Last updated:** 04:17 UTC
 
 <!-- END_DETAILS -->
 </details>
