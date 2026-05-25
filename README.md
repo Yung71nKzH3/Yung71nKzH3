@@ -2,7 +2,7 @@
 
 <!-- START_CALENDAR -->
 ### 🗓️ Monday, May 25, 2026
-**Today's Holidays:** Memorial Day • Africa Day 🌍
+**Today's Holidays:** Africa Day 🌍 • Memorial Day
 
 **Year Progress:**
 `▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱ 39.6%`
@@ -16,7 +16,7 @@
 <!-- START_DETAILS -->
 
 This is a dynamic display powered by Python, the `holidays` library, and GitHub Actions.
-**Last updated:** 14:12 UTC
+**Last updated:** 17:09 UTC
 
 <!-- END_DETAILS -->
 </details>
