@@ -1,7 +1,7 @@
 # Welcome! I'm Willow 🌴✨
 
 <!-- START_CALENDAR -->
-### 🗓️ Sunday, May 31, 2026
+### 🗓️ Monday, June 01, 2026
 **Today's Holidays:** No major holidays today
 
 **Year Progress:**
@@ -16,7 +16,7 @@
 <!-- START_DETAILS -->
 
 This is a dynamic display powered by Python, the `holidays` library, and GitHub Actions.
-**Last updated:** 23:06 UTC
+**Last updated:** 04:53 UTC
 
 <!-- END_DETAILS -->
 </details>
