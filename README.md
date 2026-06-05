@@ -1,8 +1,8 @@
 # Welcome! I'm Willow 🌴✨
 
 <!-- START_CALENDAR -->
-### 🗓️ Thursday, June 04, 2026
-**Today's Holidays:** No major holidays today
+### 🗓️ Friday, June 05, 2026
+**Today's Holidays:** World Environment Day 🌱
 
 **Year Progress:**
 `▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱ 42.5%`
@@ -16,7 +16,7 @@
 <!-- START_DETAILS -->
 
 This is a dynamic display powered by Python, the `holidays` library, and GitHub Actions.
-**Last updated:** 23:14 UTC
+**Last updated:** 04:19 UTC
 
 <!-- END_DETAILS -->
 </details>
