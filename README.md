@@ -1,8 +1,8 @@
 # Welcome! I'm Willow 🌴✨
 
 <!-- START_CALENDAR -->
-### 🗓️ Monday, June 08, 2026
-**Today's Holidays:** World Oceans Day 🌊
+### 🗓️ Tuesday, June 09, 2026
+**Today's Holidays:** No major holidays today
 
 **Year Progress:**
 `▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱ 43.6%`
@@ -16,7 +16,7 @@
 <!-- START_DETAILS -->
 
 This is a dynamic display powered by Python, the `holidays` library, and GitHub Actions.
-**Last updated:** 23:15 UTC
+**Last updated:** 04:05 UTC
 
 <!-- END_DETAILS -->
 </details>
