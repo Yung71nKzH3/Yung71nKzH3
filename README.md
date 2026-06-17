@@ -1,11 +1,11 @@
 # Welcome! I'm Willow 🌴✨
 
 <!-- START_CALENDAR -->
-### 🗓️ Tuesday, June 16, 2026
-**Today's Holidays:** Bloomsday 📖
+### 🗓️ Wednesday, June 17, 2026
+**Today's Holidays:** No major holidays today
 
 **Year Progress:**
-`▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱ 45.7%`
+`▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱ 45.8%`
 <!-- END_CALENDAR -->
 
 ---
@@ -16,7 +16,7 @@
 <!-- START_DETAILS -->
 
 This is a dynamic display powered by Python, the `holidays` library, and GitHub Actions.
-**Last updated:** 23:27 UTC
+**Last updated:** 04:48 UTC
 
 <!-- END_DETAILS -->
 </details>
