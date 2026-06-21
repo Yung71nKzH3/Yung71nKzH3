@@ -1,11 +1,11 @@
 # Welcome! I'm Willow 🌴✨
 
 <!-- START_CALENDAR -->
-### 🗓️ Saturday, June 20, 2026
-**Today's Holidays:** No major holidays today
+### 🗓️ Sunday, June 21, 2026
+**Today's Holidays:** Summer Solstice ☀️ / World Humanist Day
 
 **Year Progress:**
-`▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱ 46.8%`
+`▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱ 46.9%`
 <!-- END_CALENDAR -->
 
 ---
@@ -16,7 +16,7 @@
 <!-- START_DETAILS -->
 
 This is a dynamic display powered by Python, the `holidays` library, and GitHub Actions.
-**Last updated:** 22:14 UTC
+**Last updated:** 00:14 UTC
 
 <!-- END_DETAILS -->
 </details>
