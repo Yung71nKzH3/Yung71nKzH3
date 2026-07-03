@@ -1,8 +1,8 @@
 # Welcome! I'm Willow 🌴✨
 
 <!-- START_CALENDAR -->
-### 🗓️ Thursday, July 02, 2026
-**Today's Holidays:** No major holidays today
+### 🗓️ Friday, July 03, 2026
+**Today's Holidays:** Independence Day (observed)
 
 **Year Progress:**
 `▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱ 50.1%`
@@ -16,7 +16,7 @@
 <!-- START_DETAILS -->
 
 This is a dynamic display powered by Python, the `holidays` library, and GitHub Actions.
-**Last updated:** 22:11 UTC
+**Last updated:** 00:11 UTC
 
 <!-- END_DETAILS -->
 </details>
