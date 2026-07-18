@@ -1,8 +1,8 @@
 # Welcome! I'm Willow 🌴✨
 
 <!-- START_CALENDAR -->
-### 🗓️ Friday, July 17, 2026
-**Today's Holidays:** No major holidays today
+### 🗓️ Saturday, July 18, 2026
+**Today's Holidays:** Nelson Mandela Day 🇿🇦
 
 **Year Progress:**
 `▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱ 54.2%`
@@ -16,7 +16,7 @@
 <!-- START_DETAILS -->
 
 This is a dynamic display powered by Python, the `holidays` library, and GitHub Actions.
-**Last updated:** 22:58 UTC
+**Last updated:** 00:00 UTC
 
 <!-- END_DETAILS -->
 </details>
