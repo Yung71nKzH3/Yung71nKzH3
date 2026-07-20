@@ -1,8 +1,8 @@
 # Welcome! I'm Willow 🌴✨
 
 <!-- START_CALENDAR -->
-### 🗓️ Sunday, July 19, 2026
-**Today's Holidays:** No major holidays today
+### 🗓️ Monday, July 20, 2026
+**Today's Holidays:** World Chess Day ♟️ / Moon Day 🌕
 
 **Year Progress:**
 `▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱ 54.8%`
@@ -16,7 +16,7 @@
 <!-- START_DETAILS -->
 
 This is a dynamic display powered by Python, the `holidays` library, and GitHub Actions.
-**Last updated:** 22:00 UTC
+**Last updated:** 00:01 UTC
 
 <!-- END_DETAILS -->
 </details>
