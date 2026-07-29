@@ -9,16 +9,8 @@
 <!-- END_CALENDAR -->
 
 <!-- START_SPOTIFY -->
-#### 🎵 Currently Playing
-<a href="https://open.spotify.com/track/5dMiL6gpdQhDrFcyGqZ7LS">
-  <img src="https://i.scdn.co/image/ab67616d0000b273a228c0cc10d63953a87eba47" width="80" height="80" align="left" style="margin-right: 15px; border-radius: 8px;" />
-  <b>Someone (feat. Keyshia Cole)</b><br/>
-  <i>by Masego, Keyshia Cole</i>
-</a>
-<br clear="left"/>
-
 #### 🎵 Spotify Status
-[![Spotify Currently Playing](https://your-spotify-badge.vercel.app/api/now-playing)](https://open.spotify.com)
+[![Spotify Currently Playing](https://yung71n-kz-h3.vercel.app/api/now-playing)](https://open.spotify.com)
 <!-- END_SPOTIFY -->
 
 <!-- START_COMMITS -->
