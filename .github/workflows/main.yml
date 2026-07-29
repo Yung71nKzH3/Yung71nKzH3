@@ -23,7 +23,12 @@ jobs:
       - name: Install dependencies
         run: pip install holidays
 
-      - name: Generate Calendar SVG
+      - name: Generate Calendar
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/generate_calendar.py
 
       - name: Commit and Push changes
