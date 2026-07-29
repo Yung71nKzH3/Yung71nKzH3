@@ -276,10 +276,6 @@ def update_readme():
     details_content = f"\nThis is a dynamic display powered by Python, the `holidays` library, and GitHub Actions.\n"
     details_content += f"**Last updated:** {last_updated}\n"
 
-    # Spotify Section
-    spotify_track = get_spotify_track()
-    spotify_content = format_spotify_section(spotify_track)
-
     # Commits Section
     commits_content = get_recent_commits()
 
@@ -291,10 +287,6 @@ def update_readme():
         pattern_cal = r"<!-- START_CALENDAR -->.*?<!-- END_CALENDAR -->"
         replacement_cal = f"<!-- START_CALENDAR -->\n{calendar_content}<!-- END_CALENDAR -->"
         new_readme = re.sub(pattern_cal, replacement_cal, readme_data, flags=re.DOTALL)
-        
-        # Replace Spotify Section
-        pattern_spo = r"<!-- START_SPOTIFY -->.*?<!-- END_SPOTIFY -->"
-        new_readme = re.sub(pattern_spo, spotify_content, new_readme, flags=re.DOTALL)
 
         # Replace Commits Section
         pattern_com = r"<!-- START_COMMITS -->.*?<!-- END_COMMITS -->"

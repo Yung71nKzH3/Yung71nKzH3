@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/api/now-playing",
+      "destination": "/api/now-playing.py"
+    }
+  ]
+}

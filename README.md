@@ -9,20 +9,8 @@
 <!-- END_CALENDAR -->
 
 <!-- START_SPOTIFY -->
-#### 🎵 Currently Playing
-<<<<<<< HEAD
-<a href="https://open.spotify.com/track/4hIDCC57IMHc5GJBwHr9o3">
-  <img src="https://i.scdn.co/image/ab67616d0000b273a228c0cc10d63953a87eba47" width="80" height="80" align="left" style="margin-right: 15px; border-radius: 8px;" />
-  <b>Gone (feat. Lekan)</b><br/>
-  <i>by Masego, Lekan</i>
-=======
-<a href="https://open.spotify.com/track/6pce8aOTQ4uHFFOi17ML6T">
-  <img src="https://i.scdn.co/image/ab67616d0000b273a228c0cc10d63953a87eba47" width="80" height="80" align="left" style="margin-right: 15px; border-radius: 8px;" />
-  <b>Dotted Line</b><br/>
-  <i>by Masego</i>
->>>>>>> aa277e99679cfe48676013be7673cc0847b589fe
-</a>
-<br clear="left"/>
+#### 🎵 Spotify Status
+[![Spotify Currently Playing](https://your-spotify-badge.vercel.app/api/now-playing)](https://open.spotify.com)
 <!-- END_SPOTIFY -->
 
 <!-- START_COMMITS -->
@@ -40,11 +28,7 @@
 <!-- START_DETAILS -->
 
 This is a dynamic display powered by Python, the `holidays` library, and GitHub Actions.
-<<<<<<< HEAD
 **Last updated:** July 29, 2026 at 12:33 UTC
-=======
-**Last updated:** July 29, 2026 at 11:35 UTC
->>>>>>> aa277e99679cfe48676013be7673cc0847b589fe
 
 <!-- END_DETAILS -->
 </details>
