@@ -9,15 +9,20 @@
 <!-- END_CALENDAR -->
 
 <!-- START_SPOTIFY -->
-#### 🎵 Spotify Status
-*Offline / Not listening to anything right now*
+#### 🎵 Currently Playing
+<a href="https://open.spotify.com/track/6pce8aOTQ4uHFFOi17ML6T">
+  <img src="https://i.scdn.co/image/ab67616d0000b273a228c0cc10d63953a87eba47" width="80" height="80" align="left" style="margin-right: 15px; border-radius: 8px;" />
+  <b>Dotted Line</b><br/>
+  <i>by Masego</i>
+</a>
+<br clear="left"/>
 <!-- END_SPOTIFY -->
 
 <!-- START_COMMITS -->
 #### 🛠️ Recent Commits
+- [`b75c550`](https://github.com/Yung71nKzH3/Yung71nKzH3/commit/b75c550dcd4c39f0a94ceee2a7aa9bf6bf6b9aab) Merge branch 'main' of https://github.com/Yung71nKzH3/Yung71nKzH3
+- [`46b1bd2`](https://github.com/Yung71nKzH3/Yung71nKzH3/commit/46b1bd2d480dc15a8670a8c5e8f8924cb9c7f439) feat: add spotify integration, recent commits feed, and timestamp updates
 - [`9367292`](https://github.com/Yung71nKzH3/Yung71nKzH3/commit/9367292b8e01f812b5f4c530bdd184c57650665d) Update welcome header in README
-- [`f03ec9b`](https://github.com/Yung71nKzH3/Yung71nKzH3/commit/f03ec9b59fbdffce707c665be77ff48244854f4f) Update calendar and progress 🗓️
-- [`1a32c46`](https://github.com/Yung71nKzH3/Yung71nKzH3/commit/1a32c4636be28cd53c64cbb5b22e4848231405c6) Update calendar and progress 🗓️
 <!-- END_COMMITS -->
 
 ---
@@ -28,7 +33,7 @@
 <!-- START_DETAILS -->
 
 This is a dynamic display powered by Python, the `holidays` library, and GitHub Actions.
-**Last updated:** July 29, 2026 at 12:24 UTC
+**Last updated:** July 29, 2026 at 11:35 UTC
 
 <!-- END_DETAILS -->
 </details>
