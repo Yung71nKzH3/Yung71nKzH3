@@ -5,7 +5,7 @@
 **Today's Holidays:** No major holidays today
 
 **Year Progress:**
-`▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱ 57.4%`
+`▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱ 57.5%`
 <!-- END_CALENDAR -->
 
 <!-- START_SPOTIFY -->
@@ -15,9 +15,9 @@
 
 <!-- START_COMMITS -->
 #### 🛠️ Recent Commits
+- [`8d13886`](https://github.com/Yung71nKzH3/Yung71nKzH3/commit/8d138862211670b91cd4404aa8298d2af0a4cd86) Update calendar and progress 🗓️
 - [`6482d2b`](https://github.com/Yung71nKzH3/Yung71nKzH3/commit/6482d2bf593bebf52bfaf5fecf67e330b0d53c46) Update calendar and progress 🗓️
 - [`e890644`](https://github.com/Yung71nKzH3/Yung71nKzH3/commit/e89064419f49e32bffd763b6cc2b7656448b3d19) feat: use live vercel spotify SVG badge in README
-- [`a9caf50`](https://github.com/Yung71nKzH3/Yung71nKzH3/commit/a9caf50f08f6cd66823900d1aa806050f649ee27) Merge branch 'main' of https://github.com/Yung71nKzH3/Yung71nKzH3
 <!-- END_COMMITS -->
 
 ---
@@ -28,7 +28,7 @@
 <!-- START_DETAILS -->
 
 This is a dynamic display powered by Python, the `holidays` library, and GitHub Actions.
-**Last updated:** July 29, 2026 at 15:52 UTC
+**Last updated:** July 29, 2026 at 17:20 UTC
 
 <!-- END_DETAILS -->
 </details>
