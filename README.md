@@ -1,4 +1,4 @@
-# Welcome! I'm Willow 🌴✨
+# Welcome! I'm Willow
 
 <!-- START_CALENDAR -->
 ### 🗓️ Wednesday, July 29, 2026
