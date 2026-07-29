@@ -5,6 +5,7 @@ import base64
 import json
 import urllib.request
 import urllib.parse
+import urllib.error
 
 # Try to import holidays
 try:
@@ -183,6 +184,12 @@ def get_spotify_track():
                         return parse_track_info(items[0].get("track"), is_currently_playing=False)
         except Exception as e:
             print(f"Error fetching recently played: {e}")
+    except urllib.error.HTTPError as e:
+        print(f"General Spotify API HTTPError: {e}")
+        try:
+            print("Error body:", e.read().decode("utf-8"))
+        except Exception:
+            pass
     except Exception as e:
         print(f"General Spotify API failure: {e}")
     return None
