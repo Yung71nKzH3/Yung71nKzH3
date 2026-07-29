@@ -10,26 +10,19 @@
 
 <!-- START_SPOTIFY -->
 #### 🎵 Currently Playing
-<<<<<<< HEAD
-<a href="https://open.spotify.com/track/4hIDCC57IMHc5GJBwHr9o3">
+<a href="https://open.spotify.com/track/5dMiL6gpdQhDrFcyGqZ7LS">
   <img src="https://i.scdn.co/image/ab67616d0000b273a228c0cc10d63953a87eba47" width="80" height="80" align="left" style="margin-right: 15px; border-radius: 8px;" />
-  <b>Gone (feat. Lekan)</b><br/>
-  <i>by Masego, Lekan</i>
-=======
-<a href="https://open.spotify.com/track/6pce8aOTQ4uHFFOi17ML6T">
-  <img src="https://i.scdn.co/image/ab67616d0000b273a228c0cc10d63953a87eba47" width="80" height="80" align="left" style="margin-right: 15px; border-radius: 8px;" />
-  <b>Dotted Line</b><br/>
-  <i>by Masego</i>
->>>>>>> aa277e99679cfe48676013be7673cc0847b589fe
+  <b>Someone (feat. Keyshia Cole)</b><br/>
+  <i>by Masego, Keyshia Cole</i>
 </a>
 <br clear="left"/>
 <!-- END_SPOTIFY -->
 
 <!-- START_COMMITS -->
 #### 🛠️ Recent Commits
-- [`b75c550`](https://github.com/Yung71nKzH3/Yung71nKzH3/commit/b75c550dcd4c39f0a94ceee2a7aa9bf6bf6b9aab) Merge branch 'main' of https://github.com/Yung71nKzH3/Yung71nKzH3
-- [`46b1bd2`](https://github.com/Yung71nKzH3/Yung71nKzH3/commit/46b1bd2d480dc15a8670a8c5e8f8924cb9c7f439) feat: add spotify integration, recent commits feed, and timestamp updates
-- [`9367292`](https://github.com/Yung71nKzH3/Yung71nKzH3/commit/9367292b8e01f812b5f4c530bdd184c57650665d) Update welcome header in README
+- [`0c562b7`](https://github.com/Yung71nKzH3/Yung71nKzH3/commit/0c562b7ac872506d25fa51cfacddf895b8949ad6) Update README.md
+- [`852d21f`](https://github.com/Yung71nKzH3/Yung71nKzH3/commit/852d21f53393346f80e0d595359218a03122c4fe) chore: add robust HTTP error handling to Spotify API calls
+- [`aa277e9`](https://github.com/Yung71nKzH3/Yung71nKzH3/commit/aa277e99679cfe48676013be7673cc0847b589fe) Update calendar and progress 🗓️
 <!-- END_COMMITS -->
 
 ---
@@ -40,11 +33,7 @@
 <!-- START_DETAILS -->
 
 This is a dynamic display powered by Python, the `holidays` library, and GitHub Actions.
-<<<<<<< HEAD
-**Last updated:** July 29, 2026 at 12:33 UTC
-=======
-**Last updated:** July 29, 2026 at 11:35 UTC
->>>>>>> aa277e99679cfe48676013be7673cc0847b589fe
+**Last updated:** July 29, 2026 at 11:41 UTC
 
 <!-- END_DETAILS -->
 </details>
