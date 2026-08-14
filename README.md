@@ -1,11 +1,11 @@
 # Welcome! I'm Willow
 
 <!-- START_CALENDAR -->
-### 🗓️ Thursday, August 13, 2026
-**Today's Holidays:** International Left-handers Day ✍️
+### 🗓️ Friday, August 14, 2026
+**Today's Holidays:** No major holidays today
 
 **Year Progress:**
-`▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱ 61.6%`
+`▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱ 61.7%`
 <!-- END_CALENDAR -->
 
 <!-- START_SPOTIFY -->
@@ -15,9 +15,9 @@
 
 <!-- START_COMMITS -->
 #### 🛠️ Recent Commits
+- [`65ce639`](https://github.com/Yung71nKzH3/Yung71nKzH3/commit/65ce63964b291c8e9eef5c486a0a70f1da7a6bdc) Update calendar and progress 🗓️
 - [`ce34c29`](https://github.com/Yung71nKzH3/Yung71nKzH3/commit/ce34c29128ff6ba9a4b6e10290b838120bff21b9) Update calendar and progress 🗓️
 - [`b440722`](https://github.com/Yung71nKzH3/Yung71nKzH3/commit/b44072281124a8a9e2b066bc7d9db5825b3698d1) Update calendar and progress 🗓️
-- [`4b750ac`](https://github.com/Yung71nKzH3/Yung71nKzH3/commit/4b750ac650c2a7b09e0bccc66ba39e94f5e969fe) Update calendar and progress 🗓️
 <!-- END_COMMITS -->
 
 ---
@@ -28,7 +28,7 @@
 <!-- START_DETAILS -->
 
 This is a dynamic display powered by Python, the `holidays` library, and GitHub Actions.
-**Last updated:** August 13, 2026 at 23:48 UTC
+**Last updated:** August 14, 2026 at 02:23 UTC
 
 <!-- END_DETAILS -->
 </details>
