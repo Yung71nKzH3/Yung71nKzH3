@@ -1,8 +1,8 @@
 # Welcome! I'm Willow
 
 <!-- START_CALENDAR -->
-### 🗓️ Saturday, September 19, 2026
-**Today's Holidays:** Talk Like a Pirate Day 🏴‍☠️
+### 🗓️ Sunday, September 20, 2026
+**Today's Holidays:** No major holidays today
 
 **Year Progress:**
 `▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱ 71.8%`
@@ -15,9 +15,9 @@
 
 <!-- START_COMMITS -->
 #### 🛠️ Recent Commits
+- [`1ba7423`](https://github.com/Yung71nKzH3/Yung71nKzH3/commit/1ba74235d7d2a008d3445aa2d3ad01ee85bf8be3) Update calendar and progress 🗓️
 - [`7466aaf`](https://github.com/Yung71nKzH3/Yung71nKzH3/commit/7466aaf89e39db2a1907add68ee513e82453ee6d) Update calendar and progress 🗓️
 - [`b7c0150`](https://github.com/Yung71nKzH3/Yung71nKzH3/commit/b7c015072c6800bf467923cd4df2503862d676d4) Update calendar and progress 🗓️
-- [`367698f`](https://github.com/Yung71nKzH3/Yung71nKzH3/commit/367698f26551aeca177501782736b1b152eb44e8) Update calendar and progress 🗓️
 <!-- END_COMMITS -->
 
 ---
@@ -28,7 +28,7 @@
 <!-- START_DETAILS -->
 
 This is a dynamic display powered by Python, the `holidays` library, and GitHub Actions.
-**Last updated:** September 19, 2026 at 22:48 UTC
+**Last updated:** September 20, 2026 at 00:52 UTC
 
 <!-- END_DETAILS -->
 </details>
