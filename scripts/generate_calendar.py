@@ -230,28 +230,64 @@ def format_spotify_section(track_info):
 
 def get_recent_commits():
     token = os.environ.get("GITHUB_TOKEN")
-    repo = "Yung71nKzH3/Yung71nKzH3"
-    url = f"https://api.github.com/repos/{repo}/commits?per_page=3"
+    username = "Yung71nKzH3"
+    profile_repo = "Yung71nKzH3"
     
-    req = urllib.request.Request(url)
-    req.add_header("User-Agent", "GitHub-Action-Calendar-Generator")
+    headers = {"User-Agent": "GitHub-Action-Calendar-Generator"}
     if token:
-        req.add_header("Authorization", f"Bearer {token}")
+        headers["Authorization"] = f"Bearer {token}"
         
     try:
-        with urllib.request.urlopen(req) as response:
-            commits = json.loads(response.read().decode("utf-8"))
-            commit_lines = []
-            for c in commits:
-                commit_info = c.get("commit", {})
-                message = commit_info.get("message", "").split("\n")[0]
-                sha = c.get("sha", "")[:7]
-                html_url = c.get("html_url", "")
-                commit_lines.append(f"- [`{sha}`]({html_url}) {message}")
-            if commit_lines:
-                return "<!-- START_COMMITS -->\n#### 🛠️ Recent Commits\n" + "\n".join(commit_lines) + "\n<!-- END_COMMITS -->"
+        # Fetch user's public repositories sorted by recent activity
+        repos_url = f"https://api.github.com/users/{username}/repos?sort=pushed&per_page=10"
+        req_repos = urllib.request.Request(repos_url, headers=headers)
+        with urllib.request.urlopen(req_repos) as response:
+            repos = json.loads(response.read().decode("utf-8"))
+
+        collected_commits = []
+        for r in repos:
+            repo_name = r.get("name", "")
+            # Skip the personal profile repo and forks
+            if repo_name.lower() == profile_repo.lower() or r.get("fork"):
+                continue
+
+            full_name = r.get("full_name", "")
+            commits_url = f"https://api.github.com/repos/{full_name}/commits?per_page=3"
+            try:
+                req_commits = urllib.request.Request(commits_url, headers=headers)
+                with urllib.request.urlopen(req_commits) as resp:
+                    commits = json.loads(resp.read().decode("utf-8"))
+                    for c in commits:
+                        commit_data = c.get("commit", {})
+                        committer_info = commit_data.get("committer") or commit_data.get("author") or {}
+                        date_str = committer_info.get("date", "")
+                        message = commit_data.get("message", "").split("\n")[0]
+                        sha = c.get("sha", "")[:7]
+                        html_url = c.get("html_url", "")
+                        repo_html_url = r.get("html_url", "")
+                        collected_commits.append({
+                            "date": date_str,
+                            "repo_name": repo_name,
+                            "repo_url": repo_html_url,
+                            "sha": sha,
+                            "message": message,
+                            "html_url": html_url,
+                        })
+            except Exception as repo_err:
+                print(f"Error fetching commits for {full_name}: {repo_err}")
+
+        # Sort commits chronologically descending and take top 5
+        collected_commits.sort(key=lambda x: x["date"], reverse=True)
+        top_commits = collected_commits[:5]
+
+        if top_commits:
+            commit_lines = [
+                f"- [`{c['repo_name']}`]({c['repo_url']}) • [`{c['sha']}`]({c['html_url']}) {c['message']}"
+                for c in top_commits
+            ]
+            return "<!-- START_COMMITS -->\n#### 🛠️ Recent Commits\n" + "\n".join(commit_lines) + "\n<!-- END_COMMITS -->"
     except Exception as e:
-        print(f"Error fetching commits: {e}")
+        print(f"Error fetching recent commits across repos: {e}")
     return "<!-- START_COMMITS -->\n#### 🛠️ Recent Commits\n*Could not load recent commits.*\n<!-- END_COMMITS -->"
 
 def update_readme():
