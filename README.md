@@ -1,8 +1,8 @@
 # Welcome! I'm Willow
 
 <!-- START_CALENDAR -->
-### 🗓️ Sunday, October 11, 2026
-**Today's Holidays:** No major holidays today
+### 🗓️ Monday, October 12, 2026
+**Today's Holidays:** Columbus Day
 
 **Year Progress:**
 `▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱ 77.8%`
@@ -15,9 +15,9 @@
 
 <!-- START_COMMITS -->
 #### 🛠️ Recent Commits
+- [`29cc03f`](https://github.com/Yung71nKzH3/Yung71nKzH3/commit/29cc03f1d55c789cdd3c73782e3b1f0653ce08ee) Update calendar and progress 🗓️
 - [`a60bb27`](https://github.com/Yung71nKzH3/Yung71nKzH3/commit/a60bb276b707befba142ebd5f20eb416abc1a806) Update calendar and progress 🗓️
 - [`4b5498e`](https://github.com/Yung71nKzH3/Yung71nKzH3/commit/4b5498eebb049e6d749fa26402bea443c6a6299d) Update calendar and progress 🗓️
-- [`9308052`](https://github.com/Yung71nKzH3/Yung71nKzH3/commit/9308052ed6ecfdbd58924b81e87a0dd18ae7c685) Update calendar and progress 🗓️
 <!-- END_COMMITS -->
 
 ---
@@ -28,7 +28,7 @@
 <!-- START_DETAILS -->
 
 This is a dynamic display powered by Python, the `holidays` library, and GitHub Actions.
-**Last updated:** October 11, 2026 at 21:46 UTC
+**Last updated:** October 12, 2026 at 01:06 UTC
 
 <!-- END_DETAILS -->
 </details>
