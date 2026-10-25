@@ -30,7 +30,7 @@
 <!-- START_DETAILS -->
 
 This is a dynamic display powered by Python, the `holidays` library, and GitHub Actions.
-**Last updated:** October 25, 2026 at 21:34 UTC
+**Last updated:** October 25, 2026 at 23:59 UTC
 
 <!-- END_DETAILS -->
 </details>
