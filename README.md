@@ -1,8 +1,8 @@
 # Welcome! I'm Willow
 
 <!-- START_CALENDAR -->
-### 🗓️ Friday, October 30, 2026
-**Today's Holidays:** No major holidays today
+### 🗓️ Saturday, October 31, 2026
+**Today's Holidays:** Halloween 🎃
 
 **Year Progress:**
 `▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱ 83.0%`
@@ -30,7 +30,7 @@
 <!-- START_DETAILS -->
 
 This is a dynamic display powered by Python, the `holidays` library, and GitHub Actions.
-**Last updated:** October 30, 2026 at 22:53 UTC
+**Last updated:** October 31, 2026 at 02:10 UTC
 
 <!-- END_DETAILS -->
 </details>
