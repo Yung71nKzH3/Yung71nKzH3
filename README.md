@@ -5,7 +5,7 @@
 **Today's Holidays:** Halloween 🎃
 
 **Year Progress:**
-`▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱ 83.2%`
+`▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱ 83.3%`
 <!-- END_CALENDAR -->
 
 <!-- START_SPOTIFY -->
@@ -30,7 +30,7 @@
 <!-- START_DETAILS -->
 
 This is a dynamic display powered by Python, the `holidays` library, and GitHub Actions.
-**Last updated:** October 31, 2026 at 19:50 UTC
+**Last updated:** October 31, 2026 at 23:14 UTC
 
 <!-- END_DETAILS -->
 </details>
