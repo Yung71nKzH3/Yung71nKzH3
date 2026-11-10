@@ -1,11 +1,11 @@
 # Welcome! I'm Willow
 
 <!-- START_CALENDAR -->
-### 🗓️ Monday, November 09, 2026
+### 🗓️ Tuesday, November 10, 2026
 **Today's Holidays:** No major holidays today
 
 **Year Progress:**
-`▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱ 85.7%`
+`▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱ 85.8%`
 <!-- END_CALENDAR -->
 
 <!-- START_SPOTIFY -->
@@ -30,7 +30,7 @@
 <!-- START_DETAILS -->
 
 This is a dynamic display powered by Python, the `holidays` library, and GitHub Actions.
-**Last updated:** November 09, 2026 at 20:33 UTC
+**Last updated:** November 10, 2026 at 03:20 UTC
 
 <!-- END_DETAILS -->
 </details>
