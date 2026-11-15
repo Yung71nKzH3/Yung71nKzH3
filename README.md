@@ -1,8 +1,8 @@
 # Welcome! I'm Willow
 
 <!-- START_CALENDAR -->
-### 🗓️ Saturday, November 14, 2026
-**Today's Holidays:** Pickle Day 🥒
+### 🗓️ Sunday, November 15, 2026
+**Today's Holidays:** No major holidays today
 
 **Year Progress:**
 `▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱ 87.1%`
@@ -30,7 +30,7 @@
 <!-- START_DETAILS -->
 
 This is a dynamic display powered by Python, the `holidays` library, and GitHub Actions.
-**Last updated:** November 14, 2026 at 21:14 UTC
+**Last updated:** November 15, 2026 at 01:39 UTC
 
 <!-- END_DETAILS -->
 </details>
