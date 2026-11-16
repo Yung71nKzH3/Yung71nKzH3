@@ -1,11 +1,8 @@
 import datetime
 import os
 import re
-import base64
 import json
 import urllib.request
-import urllib.parse
-import urllib.error
 
 # Try to import holidays
 try:
@@ -132,101 +129,6 @@ def get_holidays(date):
         if date in us_holidays:
             found_holidays.extend(us_holidays.get_list(date))
     return list(set(found_holidays))
-
-def get_spotify_track():
-    client_id = os.environ.get("SPOTIFY_CLIENT_ID")
-    client_secret = os.environ.get("SPOTIFY_CLIENT_SECRET")
-    refresh_token = os.environ.get("SPOTIFY_REFRESH_TOKEN")
-
-    if not client_id or not client_secret or not refresh_token:
-        print("Spotify credentials missing. Skipping Spotify update.")
-        return None
-
-    try:
-        # Get access token
-        token_url = "https://accounts.spotify.com/api/token"
-        auth_header = base64.b64encode(f"{client_id}:{client_secret}".encode("utf-8")).decode("utf-8")
-        headers = {
-            "Authorization": f"Basic {auth_header}",
-            "Content-Type": "application/x-www-form-urlencoded"
-        }
-        payload = urllib.parse.urlencode({
-            "grant_type": "refresh_token",
-            "refresh_token": refresh_token
-        }).encode("utf-8")
-
-        req = urllib.request.Request(token_url, data=payload, headers=headers, method="POST")
-        with urllib.request.urlopen(req) as response:
-            res_body = json.loads(response.read().decode("utf-8"))
-            access_token = res_body.get("access_token")
-            
-        # Get currently playing
-        curr_url = "https://api.spotify.com/v1/me/player/currently-playing"
-        req_curr = urllib.request.Request(curr_url, headers={"Authorization": f"Bearer {access_token}"})
-        try:
-            with urllib.request.urlopen(req_curr) as response:
-                if response.status == 200:
-                    track_data = json.loads(response.read().decode("utf-8"))
-                    if track_data and track_data.get("is_playing"):
-                        return parse_track_info(track_data.get("item"), is_currently_playing=True)
-        except Exception as e:
-            print(f"Error fetching currently playing: {e}")
-
-        # Fallback to recently played
-        recent_url = "https://api.spotify.com/v1/me/player/recently-played?limit=1"
-        req_recent = urllib.request.Request(recent_url, headers={"Authorization": f"Bearer {access_token}"})
-        try:
-            with urllib.request.urlopen(req_recent) as response:
-                if response.status == 200:
-                    recent_data = json.loads(response.read().decode("utf-8"))
-                    items = recent_data.get("items")
-                    if items:
-                        return parse_track_info(items[0].get("track"), is_currently_playing=False)
-        except Exception as e:
-            print(f"Error fetching recently played: {e}")
-    except urllib.error.HTTPError as e:
-        print(f"General Spotify API HTTPError: {e}")
-        try:
-            print("Error body:", e.read().decode("utf-8"))
-        except Exception:
-            pass
-    except Exception as e:
-        print(f"General Spotify API failure: {e}")
-    return None
-
-def parse_track_info(item, is_currently_playing):
-    if not item:
-        return None
-    name = item.get("name")
-    artists = ", ".join([a.get("name") for a in item.get("artists", [])])
-    album = item.get("album", {})
-    album_art = album.get("images", [{}])[0].get("url") if album.get("images") else ""
-    track_url = item.get("external_urls", {}).get("spotify", "")
-    return {
-        "name": name,
-        "artists": artists,
-        "album_art": album_art,
-        "url": track_url,
-        "is_playing": is_currently_playing
-    }
-
-def format_spotify_section(track_info):
-    if not track_info:
-        return "<!-- START_SPOTIFY -->\n#### 🎵 Spotify Status\n*Offline / Not listening to anything right now*\n<!-- END_SPOTIFY -->"
-    
-    status_label = "Currently Playing" if track_info["is_playing"] else "Recently Played"
-    
-    html = "<!-- START_SPOTIFY -->\n"
-    html += f"#### 🎵 {status_label}\n"
-    html += f'<a href="{track_info["url"]}">\n'
-    if track_info["album_art"]:
-        html += f'  <img src="{track_info["album_art"]}" width="80" height="80" align="left" style="margin-right: 15px; border-radius: 8px;" />\n'
-    html += f'  <b>{track_info["name"]}</b><br/>\n'
-    html += f'  <i>by {track_info["artists"]}</i>\n'
-    html += '</a>\n'
-    html += '<br clear="left"/>\n'
-    html += "<!-- END_SPOTIFY -->"
-    return html
 
 def get_recent_commits():
     token = os.environ.get("GITHUB_TOKEN")
