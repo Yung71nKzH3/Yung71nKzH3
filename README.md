@@ -5,7 +5,7 @@
 **Today's Holidays:** No major holidays today
 
 **Year Progress:**
-`▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱ 90.5%`
+`▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱ 90.6%`
 <!-- END_CALENDAR -->
 
 <!-- START_SPOTIFY -->
@@ -15,9 +15,9 @@
 
 <!-- START_COMMITS -->
 #### 🛠️ Recent Commits
-- [`zedf-co-uk-website`](https://github.com/Yung71nKzH3/zedf-co-uk-website) • [`51beead`](https://github.com/Yung71nKzH3/zedf-co-uk-website/commit/51beead2dd6d00095d6c534f5d0c6e80fcadb56c) Use contact@zedf.co.uk in security.txt
-- [`zedf-co-uk-website`](https://github.com/Yung71nKzH3/zedf-co-uk-website) • [`1e6b3a3`](https://github.com/Yung71nKzH3/zedf-co-uk-website/commit/1e6b3a3e7b25822b656b1874f1e6fb2b1e8dfecd) Add /.well-known/security.txt (RFC 9116)
-- [`zedf-co-uk-website`](https://github.com/Yung71nKzH3/zedf-co-uk-website) • [`3304296`](https://github.com/Yung71nKzH3/zedf-co-uk-website/commit/3304296e4a7f08f9919fe581fd984122f8d924b1) Add SEO metadata, JSON-LD, and sitemap entry for /woody-tinny
+- [`zedf-co-uk-website`](https://github.com/Yung71nKzH3/zedf-co-uk-website) • [`f296d85`](https://github.com/Yung71nKzH3/zedf-co-uk-website/commit/f296d85fd5d4005a0a523e192bc3c1df901ea02c) ZUI
+- [`zedf-co-uk-website`](https://github.com/Yung71nKzH3/zedf-co-uk-website) • [`acf83ac`](https://github.com/Yung71nKzH3/zedf-co-uk-website/commit/acf83ac514a94ea83c7204474a11f0f4825329dc) Add security headers, optimize homepage images, and polish UniMap
+- [`zedf-co-uk-website`](https://github.com/Yung71nKzH3/zedf-co-uk-website) • [`cd7f3e8`](https://github.com/Yung71nKzH3/zedf-co-uk-website/commit/cd7f3e81bfaf17b6704a6ecc5e8955fabbd9e901) issue consideration
 - [`project-todo`](https://github.com/Yung71nKzH3/project-todo) • [`78818ee`](https://github.com/Yung71nKzH3/project-todo/commit/78818ee5b72586090a18429a9786e974c55b2a62) todo
 - [`project-todo`](https://github.com/Yung71nKzH3/project-todo) • [`ab91aa3`](https://github.com/Yung71nKzH3/project-todo/commit/ab91aa3b20a1e6f40cfd25ee9be182f4f8de1a19) feat: complete visual redesign v2.0.0 and automated release workflow
 <!-- END_COMMITS -->
@@ -30,7 +30,7 @@
 <!-- START_DETAILS -->
 
 This is a dynamic display powered by Python, the `holidays` library, and GitHub Actions.
-**Last updated:** November 27, 2026 at 07:46 UTC
+**Last updated:** November 27, 2026 at 17:59 UTC
 
 <!-- END_DETAILS -->
 </details>
